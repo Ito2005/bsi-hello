@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bsi-hello
+  labels:
+    app: bsi-hello
+spec:
+  replicas: 8
+  selector:
+    matchLabels:
+      app: bsi-hello 
+  template:
+    metadata:
+      labels:
+        app: bsi-hello
+    spec:
+      containers:
+        - name: bis-hello
+          image: eduardosilvasc/bsi-hello:v2

@@ -1,0 +1,10 @@
+apiVersion: v1 
+kind: Pod
+metadata:
+  name: bsi-hello
+  labels:
+    app: bsi-hello
+spec:
+  containers:
+    - name: bsi-hello
+      image: eduardosilvasc/bsi-hello:latest
