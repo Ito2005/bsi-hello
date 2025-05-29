@@ -7,4 +7,4 @@ metadata:
 spec:
   containers:
     - name: bsi-hello
-      image: eduardosilvasc/bsi-hello:latest
+      image: eduardosilvasc/bsi-hello-k8s:latest

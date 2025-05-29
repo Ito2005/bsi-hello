@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
         - name: bis-hello
-          image: eduardosilvasc/bsi-hello:v2
+          image: eduardosilvasc/bsi-hello-k8s:v2
