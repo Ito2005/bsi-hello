@@ -1,22 +1,27 @@
 1.Criar um repositório GitHub e clonar localmente.
-Feito
+  Feito
+
 2. Executar os testes com pytest e corrigir o erro na aplicação.
-Corrigi a aplicação. Mas não fiz os testes
-3. Fazer commits semânticos para cada alteração.
-Não fiz para cada alteração pois esqueci no desespero. Então enviei grandes comist
-4. Criar um workflow GitHub Actions que:
+  Corrigi a aplicação. Mas não fiz os testes
+
+4. Fazer commits semânticos para cada alteração.
+  Não fiz para cada alteração pois esqueci no desespero. Então enviei grandes comist
+
+6. Criar um workflow GitHub Actions que:
 ○ Execute os testes com pytest.
 ○ Crie uma imagem Docker e publique no DockerHub.
-não consegui fazer essa parte
-5. Criar configuração de Deployment e Service no Kubernetes, usando Kustomize.
-Feito
-6. Ajustar o workflow de CI/CD para:
+  não consegui fazer essa parte
+
+8. Criar configuração de Deployment e Service no Kubernetes, usando Kustomize.
+  Feito
+
+10. Ajustar o workflow de CI/CD para:
 ○ Atualizar o kustomization.yaml com a imagem gerada e versão.
 ○ Fazer commit e push automático da alteração.
-Se a imagem funcionnace iria funcionar a configuração
+  Se a imagem funcionnace iria funcionar a configuração
 
-7. Configurar um cluster local com Kind, com 3 nodes (sendo um control-plane).
-Feito nome bsi-devops
+12. Configurar um cluster local com Kind, com 3 nodes (sendo um control-plane).
+  Feito nome bsi-devops
 
 Não consegui fazer daqui para baixo    
 9. Instalar e configurar o ArgoCD.
